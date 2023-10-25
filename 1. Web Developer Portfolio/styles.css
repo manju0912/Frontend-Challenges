@@ -1,0 +1,159 @@
+:root{
+    background-color: #0a0a0b;
+}
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: --var(background-color);
+    width: 100vw;
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #ffffff;
+    font-family: 'Prata', serif;
+}
+p{
+    color: #adadad;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
+}
+.container{
+    overflow-x: hidden;
+}
+
+.row{
+    margin: 0 8%;
+}
+
+nav{
+    background-color: --var(background-color);
+}
+nav .row{
+    padding: 20px 0px;
+}
+nav h5{
+    font-size: 22px;
+    font-weight: 300;
+}
+nav .row, ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    color: #adadad;
+    margin-right: 20%;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: #fbe850;
+    font-size: 20px;
+    border: none;
+    font-family: 'Prata', serif;
+}
+.hamburger{
+    display: none;
+}
+
+#hero{
+    padding: 5% 0 3% 0;
+}
+#hero div{
+    width: 50%;
+}
+#hero div p{
+    letter-spacing: 0.5px;
+    padding: 10px 0;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.logos div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5% 0;
+}
+
+#articles .row{
+    display: flex;
+    justify-content: space-between;
+    gap: 8%;
+    padding: 2% 0 5% 0;
+}
+
+.card, .column{
+    width: 50%;
+}
+.card img{
+    width: 100%;
+}
+h3{
+    font-size: 2.4rem;
+    font-weight: 400;
+    padding: 10px 0;
+}
+i{
+    color: #ffffff;
+    width: 100px;
+}
+
+.fa-arrow-right-long{
+    font-size: 1.4rem;
+}
+#about .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8%;
+}
+#about{
+    padding: 5% 0;
+    background-color: #2e3038;
+}
+
+.cta{
+    padding: 5% 0;
+}
+.cta div{
+    width: 40%;
+}
+.cta div button{
+    margin-top: 4%;
+}
+
+
+footer{
+    background-color: #2e3038;
+    padding: 2% 0;
+}
+footer .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer h4{
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.social-icons img{
+   padding-left: 10px; 
+}
+
